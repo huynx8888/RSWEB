@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/*=========================================================
+	[ koGyoum.css ]
+	creation:2011-12-10
+	update  :2012-02-09
+=========================================================*/
+
+/*=========================================================
+	index
+		1. menu class
+=========================================================*/
+/*-------------------------------------------------------
+ 1. menu
+---------------------------------------------------------*/
+.menu div{
+	overflow:hidden;
+}
+.menu ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+}
+.menu li{
+	display:block;
+	overflow:hidden;
+}
+
+.menu a{
+	display:block;
+	background-image:url(../images/MeBuKoGyoum.png);
+	background-repeat:no-repeat;
+	height:0;
+	overflow:hidden;
+	text-indent:-9999em;
+}
+
+.menu ul.left{
+		z-index:1;
+		width:200px;
+	}
+	ul.left li{
+		font-size:11px;
+	    list-style:none;
+	    padding:0px 0px;
+	    float:left;
+	}
+	.left li.btn01{width:200px;}
+	.left li.btn02{width:200px;}
+	.left li.btn03{width:200px;}
+	.left li.btn04{width:200px;}
+	.left li.btn05{width:200px;}
+	.left li.btn06{width:200px;}
+
+	.left li a{padding-top:60px;}
+	.left li.btn01 a{background-position:   -2px -6px;}
+	.left li.btn02 a{background-position:   -2px -66px;}
+	.left li.btn03 a{background-position:   -2px -126px;}
+	.left li.btn04 a{background-position:   -2px -186px;}
+	.left li.btn05 a{background-position:   -2px -246px;}
+	.left li.btn06 a{background-position:   -2px -306px;}
+
+	.left li a:hover{padding-top:60px;}
+	.left li.btn01 a:hover{background-position: -204px -6px;}
+	.left li.btn02 a:hover{background-position: -204px -66px;}
+	.left li.btn03 a:hover{background-position: -204px -126px;}
+	.left li.btn04 a:hover{background-position: -204px -186px;}
+	.left li.btn05 a:hover{background-position: -204px -246px;}
+	.left li.btn06 a:hover{background-position: -204px -306px;}
+
+/*-------------------------------------------------------
+ 2.
+---------------------------------------------------------*/
+.fig01 table {
+	width:580px;
+    margin:5px 0px 0px 25px;	/*マージン（外側の余白）　top right bottom left */
+}
+
+/*-------------------------------------------------------
+ 3.
+---------------------------------------------------------*/
+.fig021 table {
+	width:550px;
+    margin:5px 0px 0px 20px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig021 td {
+	background-color: #ffffff;
+}
+
+/*-------------------------------------------------------
+ 3.
+---------------------------------------------------------*/
+

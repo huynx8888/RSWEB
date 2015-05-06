@@ -1,0 +1,450 @@
+﻿@charset "utf-8";
+
+/*=========================================================
+	[ topReq.css ]
+	creation:2013-01-17
+	update  :
+=========================================================*/
+
+/*=========================================================
+	index
+		1. fig01 class
+		2. fig02 class
+		3. fig03 class
+		4. fig04 class	活用ケース　メニュー
+		5. fig05 class
+		6. fig06 class	活用ケース　コンテンツ
+		7. fig07 class	Q&A
+		8. fig08 class	Q&A
+		9. fig09 class	ふぁーむらんど
+		10.fig11 class  借受希望者公表情報（平成26年9月加筆）
+=========================================================*/
+/*-------------------------------------------------------
+ 1. fig01
+---------------------------------------------------------*/
+.fig01 div {
+}
+.fig01 table{
+	width:550px;
+    margin:20px 0px 0px 20px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig01 td{
+	font-size:14px;
+	float:center;
+}
+
+/*-------------------------------------------------------
+ 2. fig02
+---------------------------------------------------------*/
+.fig02 div {
+}
+.fig02 table{
+	border: 2px solid #33ff33;
+	width:550px;
+    margin:20px 0px 0px 20px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig02 td{
+	border: 2px solid #33ff33;
+	font-size:14px;
+	float:center;
+    line-height:150%;	/*行間調整(折返し)*/
+    padding:3px 3px;
+}
+
+/*
+---------------------------------------------------------------------------------------
+	fig03　平成26年8月4日　稲垣加筆修正
+		平成26年10月1日　稲垣加筆修正（概況ファイル掲載のため）
+---------------------------------------------------------------------------------------
+*/
+.fig03 div {
+}
+
+.fig03 table{
+	border: 1px solid #000000;
+	width:98%;
+    margin:5px 0px 12px 0px;	/*マージン（外側の余白）　top right bottom left */
+}
+
+.fig03 tr.ki{
+	background-color: #ddeeff;
+}
+.fig03 tr.gu{
+	background-color: #ddffee;
+}
+.fig03 tr.ki2{
+	background-color: #eeffee;
+}
+.fig03 tr.gu2{
+	background-color: #eeffff;
+}
+.fig03 th{
+	float:center;
+	border: 1px solid #000000;
+	background-color: #bbbbbb;
+	font-size:13px;
+	line-height:150%;	/*行間調整(折返し)*/
+    padding:3px 3px;
+}
+.fig03 th.nam{width:29%;}
+.fig03 th.zip{width:9%;}
+.fig03 th.adr{width:41%;}
+.fig03 th.tel{width:16%;}
+.fig03 th.prf{width:5%;}
+
+.fig03 th.kikou{width:25%;}
+.fig03 th.kikan{width:20%;}
+.fig03 th.tel{width:15%;}
+
+.fig03 th.gaikyonamae{width:200px;}
+.fig03 th.gaikyofile{width:70px;}
+
+
+.fig03 th.namaeken{width:60%;}
+.fig03 th.h26zenki1{width:20%;}
+.fig03 th.h26zenki2{width:20%;}
+
+
+.fig03 th.tod{width:12%;}
+.fig03 th.kou{width:30%;}
+.fig03 th.cit{width:43%;}
+.fig03 th.dat{width:15%;}
+
+.fig03 th.pre{width:10%;}
+.fig03 th.nok{width:82%;}
+.fig03 th.cnt{width:8%;}
+
+.fig03 th.ken{width:15%;}
+.fig03 th.shi{width:65%;}
+.fig03 th.dae{width:20%;}
+
+.fig03 th.kij{width:85%;}
+.fig03 th.fid{width:15%;}
+
+.fig03 td{
+	border: 1px solid #000000;
+	font-size:13px;
+    line-height:150%;	/*行間調整(折返し)*/
+    padding:3px 3px;
+}
+.fig03 td.ki{
+	background-color: #ddeeff;
+}
+.fig03 td.gu{
+	background-color: #ddffee;
+}
+.fig03 td.ki2{
+	background-color: #eeffee;
+}
+.fig03 td.gu2{
+	background-color: #eeffff;
+}
+
+
+
+
+/*
+---------------------------------------------------------------------------------------
+	fig11　平成26年9月4日　稲垣加筆修正
+---------------------------------------------------------------------------------------
+*/
+.fig11 div {
+}
+
+.fig11 table{
+	border: 1px solid #000000;
+	width:100%;
+    margin:5px 0px 12px 0px;	/*マージン（外側の余白）　top right bottom left */
+}
+
+.fig11 tr.ki{
+	background-color: #ddeeff;
+}
+.fig11 tr.gu{
+	background-color: #ddffee;
+}
+
+.fig11 th{
+	float:center;
+	border: 1px solid #000000;
+	background-color: #bbbbbb;
+	font-size:12px;
+	line-height:150%;	/*行間調整(折返し)*/
+    padding:3px 3px;
+}
+
+.fig11 th.kikou{width:35%;}
+.fig11 th.kikan{width:17%;}
+.fig11 th.tel{width:14%;}
+
+.fig11 td{
+	border: 1px solid #000000;
+	font-size:12px;
+    line-height:150%;	/*行間調整(折返し)*/
+    padding:3px 3px;
+}
+.fig11 td.ki{
+	background-color: #ddeeff;
+}
+.fig11 td.gu{
+	background-color: #ddffee;
+}
+
+
+
+/*
+---------------------------------------------------------------------------------------
+	fig04
+---------------------------------------------------------------------------------------
+*/
+.fig04 div {
+}
+.fig04 table{
+	/*
+	border: 2px solid #330000;
+	*/
+	width:560px;
+    margin:0px 0px 0px 25px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig04 td{
+	/*
+	border: 2px solid #33ff33;
+	*/
+	font-size:12px;
+    line-height:120%;	/*行間調整(折返し)*/
+    padding:4px 4px;
+}
+.fig04 td.fig{
+	padding:5px 0px 0px 0px;	/*パディング（内側の余白）　top right bottom left */
+	text-align: center;
+}
+.fig04 td.txt{
+	padding:5px 10px 5px 10px;	/*パディング（内側の余白）　top right bottom left */
+	text-align: left;
+}
+
+/*
+---------------------------------------------------------------------------------------
+	fig05
+---------------------------------------------------------------------------------------
+*/
+.fig05 div {
+}
+.fig05 table{
+	/*
+	border: 2px solid #330000;
+	*/
+	border: 1px solid #330000;
+	width:150px;
+    margin:0px 0px 0px 25px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig05 td{
+	background-color: #eeeeee;
+	font-size:15px;
+	font-weight:bold;
+	text-align: center;
+    line-height:120%;	/*行間調整(折返し)*/
+    padding:5px 5px 5px 5px;
+}
+
+/*
+---------------------------------------------------------------------------------------
+	fig06
+---------------------------------------------------------------------------------------
+*/
+.fig06 div {
+}
+.fig06 table{
+	width:520px;
+    margin:0px 0px 0px 25px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig06 td{
+	font-size:14px;
+    line-height:150%;	/*行間調整(折返し)*/
+}
+.fig06 td.fig{
+	padding:20px 0px 0px 0px;	/*パディング（内側の余白）　top right bottom left */
+	text-align: center;
+}
+.fig06 td.txt{
+	padding:20px 0px 0px 25px;	/*パディング（内側の余白）　top right bottom left */
+	text-align: left;
+}
+
+/*
+---------------------------------------------------------------------------------------
+	fig07
+---------------------------------------------------------------------------------------
+*/
+
+.fig07 div {
+}
+.fig07 h2 {
+	font-size:15px;
+	padding:3px 3px;
+}
+.fig07 li {
+	list-style:none;
+}
+.fig07 li.word {
+	font-size:16px;
+	font-weight:bold;
+	background-color: #ccccdd;
+	padding:3px 3px 3px 3px;
+}
+.fig07 li.means {
+	font-size:13px;
+	background-color: #efefef;
+	padding:2px 2px 10px 15px;
+    line-height:140%;	/*行間調整(折返し)*/
+}
+.fig07 table{
+	width:95%;
+    margin:10px 0px 0px 10px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig07 td{
+}
+
+/*
+---------------------------------------------------------------------------------------
+	fig08
+---------------------------------------------------------------------------------------
+*/
+.fig08 div {
+}
+.fig08 table{
+/* 		border: 1px solid #330000; */
+
+	width:92%;
+    margin:20px 0px 0px 25px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig08 td{
+	font-size:14px;
+	float:center;
+    line-height:135%;	/*行間調整(折返し)*/
+}
+.fig08 td.Q{
+	background-image:url(../images/QA_Q.png);
+	background-repeat:no-repeat;
+	height:45px;
+	padding:3px 3px 3px 49px;
+}
+.fig08 td.A{
+	background-image:url(../images/QA_A.png);
+	background-repeat:no-repeat;
+	background-color: #efffef;
+	padding:10px 3px 20px 48px;
+}
+
+/*
+---------------------------------------------------------------------------------------
+	fig09
+---------------------------------------------------------------------------------------
+*/
+.fig09 div {
+}
+.fig09 table{
+	width:560px;
+    margin:0px 0px 0px 0px;	/*マージン（外側の余白）　top right bottom left */
+}
+
+.fig09 tr.ki{
+	background-color: #ddeeff;
+}
+.fig09 tr.gu{
+	background-color: #ddffee;
+}
+
+.fig09 th{
+	font-size:14px;
+	background-color: #cccccc;
+	text-align:center;
+}
+.fig09 th.num{
+	width:10%;
+	text-align:center;
+}
+.fig09 th.ti1{
+	width:30%;
+	text-align:left;
+}
+.fig09 th.ti2{
+	width:60%;
+	text-align:left;
+}
+
+.fig09 td{
+	padding:2px 2px 2px 2px;	/*パディング（内側の余白）　top right bottom left */
+	font-size:13px;
+}
+.fig09 td.num{
+	text-align:center;
+}
+
+
+.jump {
+	text-align:right;
+	font-size:13px;
+}
+
+.issue table{
+	width:95%;
+	border: 1px solid #aaaaaa;
+}
+.index th{
+	border: 1px solid #aaaaaa;
+}
+.index td{
+	border: 1px solid #aaaaaa;
+}
+.index th.page{
+	width:3%;
+}
+.index th.title01{
+	width:25%;
+}
+.index th.title02{
+	width:42%;
+}
+.index th.auther{
+	width:30%;
+}
+
+
+
+
+
+
+.fig031 table {
+	width:485px;
+}
+.fig031 th {
+	background-color: #ccffdd;
+    padding:5px 5px 5px 5px;
+   	font-size:16px;
+	font-weight:bold;
+	text-align: left;
+}
+.fig031 td {
+	background-color: #ffffff;
+    line-height:110%;
+    padding:0px 0px 0px 0px;
+}
+
+
+.tab_PDF table {
+	width:500px;
+}
+.tab_PDF th {
+	background-color: #ccffdd;
+    padding:5px 5px 5px 5px;
+   	font-size:16px;
+	font-weight:bold;
+	text-align: left;
+}
+.tab_PDF td {
+	background-color: #ffffff;
+    line-height:110%;
+    padding:0px 0px 0px 0px;
+}
+

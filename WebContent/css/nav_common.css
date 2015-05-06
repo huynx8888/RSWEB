@@ -1,0 +1,198 @@
+﻿@charset "utf-8";
+
+/*=========================================================
+	[ nav_common.css ]
+	creation:2011-12-10
+	update  :2012-09-03
+=========================================================*/
+
+/*=========================================================
+	index
+		1. header
+		2. footer
+=========================================================*/
+/*-------------------------------------------------------
+ 1. header
+---------------------------------------------------------*/
+
+#header div{
+	overflow:hidden;
+}
+#header ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+}
+#header li{
+	display:block;
+	overflow:hidden;
+}
+
+#header a{
+	display:block;
+	background-image:url(../images/MenuHead-MainA.png);
+	background-repeat:no-repeat;
+	height:0;
+	overflow:hidden;
+	text-indent:-9999em;
+}
+	#headHome a{
+		width:81px;
+		padding-top:36px;
+		background-position:0px -190px;
+	}
+	#headHome a:hover{
+		background-position:0px -228px;
+	}
+
+	#headSitemap a{
+		width:81px;
+		padding-top:36px;
+		background-position:-80px -190px;
+	}
+	#headSitemap a:hover{
+		background-position:-80px -228px;
+	}
+
+	#headAccess a{
+		width:81px;
+		padding-top:36px;
+		background-position:-160px -190px;
+	}
+	#headAccess a:hover{
+		background-position:-160px -228px;
+	}
+
+	/*---------------------------------------------------------
+	  navUtility
+	  ---------------------------------------------------------*/
+	ul#navUtility{
+		margin-left:auto;
+    	margin-right:auto;
+		/*
+		padding: 0px 0px 0px 40px;
+		*/
+		z-index:1;
+		width:800px;
+		height:48px;
+	}
+	ul#navUtility li{
+/* 		font-size:11px; */
+	    list-style:none;
+	    padding:0px 0px;
+	    float:left;
+	}
+	#navUtility li.btn01{width:130px;}
+	#navUtility li.btn02{width:130px;}
+	#navUtility li.btn03{width:130px;}
+	#navUtility li.btn06{width:130px;}
+	#navUtility li.btn04{width:130px;}
+	#navUtility li.btn05{width:131px;}
+
+	#navUtility li a{padding-top:48px;}
+	#navUtility li.btn01 a{background-position:   0px 0;}
+	#navUtility li.btn02 a{background-position:-130px 0;}
+	#navUtility li.btn03 a{background-position:-260px 0;}
+	#navUtility li.btn06 a{background-position:-390px 0;}
+	#navUtility li.btn04 a{background-position:-520px 0;}
+	#navUtility li.btn05 a{background-position:-650px 0;}
+
+	#navUtility li a:hover{padding-top:48px;}
+	#navUtility li.btn01 a:hover{background-position:   0px -48px;}
+	#navUtility li.btn02 a:hover{background-position:-130px -48px;}
+	#navUtility li.btn03 a:hover{background-position:-260px -48px;}
+	#navUtility li.btn06 a:hover{background-position:-390px -48px;}
+	#navUtility li.btn04 a:hover{background-position:-520px -48px;}
+	#navUtility li.btn05 a:hover{background-position:-650px -48px;}
+
+	/*nowhere*/
+	#admission #navUtility .admission a{background-position:-200px -41px;}
+
+
+	/*---------------------------------------------------------
+	  navSearch (googole)
+	  ---------------------------------------------------------*/
+	#navSearch {
+		z-index:1;
+		float:right;
+		width:247px;
+	}
+	#navSearch div {
+		vertical-align:bottom;
+	}
+	#navSearch input.searchForm {
+		width:163px;
+		height:21px;
+		margin:0;
+		padding:2px 2px 2px 29px !important;
+		line-height:1.6;
+		background:#fff url(../images/MenuHead-MainB.png) no-repeat 0 -150px !important;
+		border:none !important;
+	}
+
+	#navSearch input.searchForm:hover,
+	#navSearch input.searchForm:active,
+	#navSearch input.searchForm:focus {
+		background:#fff url(../images/MenuHead-MainB.png) no-repeat 0 -175px !important;
+	}
+
+
+
+
+/*---------------------------------------------------------
+ 2. footer
+  ---------------------------------------------------------*/
+/*
+	border:dotted 2px #ff0000;
+*/
+
+#footer{
+	vertical-align: bottom;
+}
+#footer table{
+	margin: 0 auto;
+	font-size:83%;
+	width:850px;
+}
+
+#footer a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+#footer a:link {
+   color:#fff;
+}
+#footer a:hover {
+   color:#aaa;
+}
+
+.tailAddress {
+	color:#337766;
+	line-height:147%;	/*行間調整(折返し)*/
+	margin:0px 0px 0px 0px;	/*マージン（外側の余白）　top right bottom left */
+	padding:4px 4px 4px 4px;
+	font-size:11px;
+	text-align:center;
+}
+.tailLine {
+	border-top:1px solid #81c99b;
+	height:10px;
+}
+
+panDustLink:ul{
+	color:#ffffff;
+    padding-left:0;
+    margin-left:0;
+}
+ul.panDustLink li{
+    list-style:none;
+    padding:3px 8px;
+	height:15px;
+    width:123px;
+	float:left;
+
+/*     background:#008800 url(../images/titleBack.gif) no-repeat 0 -175px !important;	 */
+	background:#008800;
+}
+

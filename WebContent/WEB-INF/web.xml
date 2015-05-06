@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!-- 2015/03/26 Start Add Action -->
+  <servlet>
+    <description></description>
+    <display-name>SearchTree</display-name>
+    <servlet-name>SearchTree</servlet-name>
+    <servlet-class>rs.process.web.SearchTreeAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchTree</servlet-name>
+    <url-pattern>/rs/SearchTreeAction</url-pattern>
+  </servlet-mapping>
+  <!-- 2015/03/26 End Add Action -->
+
+    <!-- error page -->
+  <error-page>
+    <error-code>401</error-code>
+    <location>/error/401.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error/404.jsp</location>
+  </error-page>
+
+</web-app>

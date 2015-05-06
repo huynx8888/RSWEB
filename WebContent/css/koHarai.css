@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*=========================================================
+	[ koHarai.css ]
+	creation:2011-12-10
+	update  :
+=========================================================*/
+
+/*=========================================================
+	index
+		1. menu class
+=========================================================*/
+/*------------------------------------------------------- 
+ 1. menu
+---------------------------------------------------------*/
+.menu div{
+	overflow:hidden;
+}
+.menu ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+}
+.menu li{
+	display:block;
+	overflow:hidden;
+}
+
+.menu a{
+	display:block;
+	background-image:url(../images/MeBuKoHarai.png);
+	background-repeat:no-repeat;
+	height:0;
+	overflow:hidden;
+	text-indent:-9999em;
+}
+
+.menu ul.left{
+		z-index:1;
+		width:200px;
+	}
+	ul.left li{
+		font-size:11px;
+	    list-style:none;
+	    padding:0px 0px;
+	    float:left;
+	}
+	.left li.btn01{width:200px;}
+	.left li.btn02{width:200px;}
+	.left li.btn03{width:200px;}
+	.left li.btn04{width:200px;}
+	.left li.btn05{width:200px;}
+	.left li.btn06{width:200px;}
+
+	.left li a{padding-top:60px;}
+	.left li.btn01 a{background-position:   -2px -6px;}
+	.left li.btn02 a{background-position:   -2px -66px;}
+	.left li.btn03 a{background-position:   -2px -126px;}
+	.left li.btn04 a{background-position:   -2px -186px;}
+	.left li.btn05 a{background-position:   -2px -246px;}
+	.left li.btn06 a{background-position:   -2px -306px;}
+
+	.left li a:hover{padding-top:60px;}
+	.left li.btn01 a:hover{background-position: -204px -6px;}
+	.left li.btn02 a:hover{background-position: -204px -66px;}
+	.left li.btn03 a:hover{background-position: -204px -126px;}
+	.left li.btn04 a:hover{background-position: -204px -186px;}
+	.left li.btn05 a:hover{background-position: -204px -246px;}
+	.left li.btn06 a:hover{background-position: -204px -306px;}
+
+/*------------------------------------------------------- 
+ 2. 
+---------------------------------------------------------*/
+.fig01 table {
+	background-color: #ddffee;
+	border: 2px solid #33aa33;
+	width:560px;
+    margin:2px 0px 0px 25px;	/*マージン（外側の余白）　top right bottom left */	
+}
+
+.fig01 td {
+	background-color: #ddffee;
+	border: 1px solid #ffffff;
+	font-size:13px;
+    padding:6px 0px 6px 5px;
+   	/*
+	font-weight:bold;
+	*/
+}
+.fig01 td.Gu{
+	background-color: #88ff88;
+}
+.fig01 td.title{
+	background-color: #22ee33;
+}
+.fig01 td.titleGu{
+	background-color: #22ee33;
+}
+.fig01 td.titleDk{
+	font-color: #FFFFFF;
+	background-color: #33aa33;
+}
+	 	
+/*------------------------------------------------------- 
+ 3. 
+---------------------------------------------------------*/
+.fig02 table {
+	line-height:160%;	/*行間調整(折返し)*/
+	width:700px;
+    margin:2px 0px 0px 25px;	/*マージン（外側の余白）　top right bottom left */	
+}
+
+.fig02 td {
+	font-size:14px;
+    padding:6px 0px 6px 5px;
+   	/*
+	background-color: #ddffee;
+	border: 1px solid #ffffff;
+    	font-weight:bold;
+	*/
+}
+
+.fig02 td.Gu{
+	background-color: #88ff88;
+}
+.fig02 td.title{
+	background-color: #22ee33;
+}
+.fig02 td.titleGu{
+	background-color: #22ee33;
+}
+.fig02 td.titleDk{
+	font-color: #FFFFFF;
+	background-color: #33aa33;
+}
+
+.line {
+	/*
+	border-bottom:1px solid #81c99b;
+	*/
+	border-top:1px solid #81c99b;
+	width:600px;
+    float:left;
+}

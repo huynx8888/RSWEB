@@ -1,0 +1,328 @@
+﻿@charset "utf-8";
+
+/*=========================================================
+	[ reset.css ]
+	creation:2011-12-10
+	update  :2013-01-18
+=========================================================*/
+
+/*=========================================================
+	index
+		1. browser style reset
+		2. element style
+		3. clear class
+		4-1. flame class
+		4-2. gaiyou class
+		5-1. sitemap class
+		6-1. formset class
+=========================================================*/
+
+/*-------------------------------------------------------
+ 1. browser style reset
+---------------------------------------------------------*/
+html,body,div,
+h1,h2,h3,h4,h5,h6,p,pre,
+table,caption,
+dl,dt,dd,ul,ol,li,
+fieldset,form,label,legend{
+	margin:0;
+	padding:0;
+	font-size:100%;
+}
+table,tr,th,td{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+a rt{text-decoration:none;}
+
+/*-------------------------------------------------------
+ 2. element style
+---------------------------------------------------------*/
+strong{font-weight:bold;}
+a img{border-style:none;}
+img{vertical-align:middle;}
+a img,* html img{vertical-align:top;}
+
+* {
+/* 	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"Lucida Sans Unicode","Lucida Grande","Verdana","ＭＳ Ｐゴシック",sans-serif; */
+   font-family:"MS P ゴシック",　"HG丸ｺﾞｼｯｸM-PRO",　verdana, sans-serif;
+}
+
+a {
+   color:#0C5F95;
+   text-decoration:none;
+}
+
+a:link {
+   color:#0C5F95;
+}
+
+a:visited {
+   color:#666;
+}
+
+a:hover {
+   color:#ddd;
+}
+
+
+li.pdfTitle {
+	font-weight:bold;
+	font-size:15px;
+	list-style:none;
+	margin:3px 0px 0px 0px;
+	padding:2px 0px 2px 0px;
+	vertical-align:middle;
+}
+li.pdf {
+	font-size:15px;
+	list-style:none;
+	margin:3px 0px 0px 0px;
+	padding:0px 0px 0px 20px;
+	vertical-align:middle;
+	background-image:url(../images/pdf15x15.gif);
+	background-repeat:no-repeat;
+}
+li.pdfRemarks {
+	font-size:12px;
+	list-style:none;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	vertical-align:middle;
+}
+li.xls {
+	font-size:15px;
+	list-style:none;
+	margin:3px 0px 0px 0px;
+	padding:0px 0px 0px 20px;
+	vertical-align:middle;
+	background-image:url(../images/excel15x15.JPG);
+	background-repeat:no-repeat;
+}
+li.xlsRemarks {
+	font-size:12px;
+	list-style:none;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	vertical-align:middle;
+}
+li.down {
+	font-size:15px;
+	list-style:none;
+	margin:3px 0px 0px 0px;
+	padding:0px 0px 0px 20px;
+	vertical-align:middle;
+	background-image:url(../images/download15x15.gif);
+	background-repeat:no-repeat;
+}
+li.downRemarks {
+	font-size:12px;
+	list-style:none;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	vertical-align:middle;
+}
+
+
+/*-------------------------------------------------------
+ 3. clear & reset class
+---------------------------------------------------------*/
+.clfix:after{
+	content:".";
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+}
+.clfix{display:inline-block;}
+/* Hides from IE-mac \*/
+* html .clfix{height:1%;}
+.clfix{display:block;}
+/* End hide from IE-mac */
+
+.clr{clear:both !important;}
+#container .first{margin-top:0 !important;}
+.hide{display:none !important;}
+.fend{float:none !important;}
+
+hr{
+	clear:both;
+	visibility:hidden;
+}
+br.fclr,br.clr{
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+}
+
+/*-------------------------------------------------------
+ 4-1. flame class
+---------------------------------------------------------*/
+/*
+	border:dotted 1px #0000ff;
+*/
+#headbox{
+	height:120px;
+}
+#mainbox{
+	text-align:center;
+}
+#footbox{
+	height:80px;
+}
+
+
+	#contentbox{
+/* 		border:dotted 1px #00ff00; */
+		margin-left:auto;
+		margin-right:auto;
+		text-align:left;
+		width:850px;
+		/*-------------------------------
+		上記部分を平成26年7月24日に変更
+		    width:800px;　→　900px　
+		さらに平成26年11月11日に変更
+		    width:900px;　→　850px　
+		--------------------------------*/
+	}
+		#leftmenu{
+/* 			border:dotted 1px #0000ff; */
+			width:205px;
+		}
+
+		#maincontent{
+/* 			border:dotted 1px #ff0000; */
+			width:640px;
+/* 			height:660px; */
+			overflow:auto
+		}
+
+		#maincontentMenuless{
+			width:850px;
+			height:620px;
+			overflow:hidden;
+		}
+
+
+.tabFrame {
+	margin:5px 0px 0px 20px;
+}
+
+
+/*-------------------------------------------------------
+ 4-2. gaiyou
+---------------------------------------------------------*/
+.gaiyou div {
+}
+.gaiyou table{
+	width:550px;
+    margin:5px 0px 0px 10px;	/*マージン（外側の余白）　top right bottom left */
+}
+.gaiyou th{
+	font-size:17px;
+	vertical-align:top;
+    line-height:180%;	/*行間調整(折返し)*/
+}
+
+th.TIL{
+	text-align:left;
+	padding:12px 0px 0px 30px;
+	background-image:url(../images/titleLineL.png);
+}
+.gaiyou td{
+	font-size:14px;
+	vertical-align: top;
+    line-height:180%;	/*行間調整(折返し)*/
+	padding:0px 0px 0px 35px;
+}
+
+.gaiyou2 div {
+}
+.gaiyou2 table{
+	width:550px;
+	margin:5px 0px 5px 0px;	/*マージン（外側の余白）　top right bottom left */
+}
+.gaiyou2 th{
+	font-size:17px;
+	vertical-align:top;
+    line-height:180%;	/*行間調整(折返し)*/
+}
+.gaiyou2 th.TIL{
+	text-align:left;
+	padding:5px 0px 0px 25px;
+	background-image:url(../images/titleLineL.png);
+	background-position:   -5px -5px;
+}
+.gaiyou2 td{
+	font-size:14px;
+	vertical-align: top;
+    line-height:180%;	/*行間調整(折返し)*/
+	padding:0px 0px 0px 35px;
+}
+
+
+/*-------------------------------------------------------
+ 5-1. sitemap
+---------------------------------------------------------*/
+.sitemap{
+}
+.sitemap table.linklist{
+	width:800px;
+	height:590px;
+    margin:5px 0px 0px 10px;	/*マージン（外側の余白）　top right bottom left */
+}
+.sitemap td{
+	vertical-align:top;
+}
+.sitemap li.t1{
+	font-size:15px;
+    list-style:none;
+    line-height:160%;
+    margin:0px 0px 0px 10px;
+    padding:0px 0px 0px 10px;
+    background-color: #55ff55;
+}
+.sitemap li.t2{
+	font-size:13px;
+    list-style:none;
+    line-height:130%;
+	margin:0px 0px 0px 20px;
+}
+
+
+
+/*-------------------------------------------------------
+ 6-1. formset
+---------------------------------------------------------*/
+.formset {
+	padding:3px 0px 3px 7px;
+	width:800px;
+	font-size:13px;
+}
+	.formset table {
+		width:100%;
+	}
+		td.msg {
+			color: #FF0000;
+		}
+
+	.formset table.input {
+		border:1px solid #8fbc8f;
+	}
+		table.input th {
+			border: 1px solid #8fbc8f;
+			padding:4px 1px 2px 5px;
+			background-color: #3cb371;
+		}
+		.input td {
+			border: 1px solid #8fbc8f;
+			padding:1px 1px 1px 5px;
+			background-color: #FFFFFF;
+		}
+			.input td.title {
+				background-color: #98fb98;
+			}
+			.input td.form {
+
+			}
+

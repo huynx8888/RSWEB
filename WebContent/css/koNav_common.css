@@ -1,0 +1,199 @@
+@charset "utf-8";
+/*---------------------------------------------------------
+	site font settings
+  ---------------------------------------------------------*/
+
+
+
+
+
+
+/*---------------------------------------------------------
+  koHeader
+  ---------------------------------------------------------*/
+
+.koHeader div{
+	overflow:hidden;
+}
+.koHeader ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+}
+.koHeader li{
+	display:block;
+	overflow:hidden;
+}
+
+.koHeader a{
+	display:block;
+	background-image:url(../images/MenuKo.png);
+	background-repeat:no-repeat;
+	height:0;
+	overflow:hidden;
+	text-indent:-9999em;
+}
+
+	.koHeadHome a{
+		width:81px;
+		padding-top:36px;
+		background-position:0px -70px;
+	}
+	.koHeadHome a:hover{
+		background-position:0px -107px;
+	}
+
+	.koHeadSitemap a{
+		width:81px;
+		padding-top:36px;
+		background-position:-80px -70px;
+	}
+	.koHeadSitemap a:hover{
+		background-position:-80px -107px;
+	}
+
+	.koHeadAccess a{
+		width:81px;
+		padding-top:36px;
+		background-position:-160px -70px;
+	}
+	.koHeadAccess a:hover{
+		background-position:-160px -107px;
+	}
+
+
+	/*---------------------------------------------------------
+	  koNavUtility
+	  ---------------------------------------------------------*/
+	ul.koNavUtility{
+		margin-left:auto;
+    	margin-right:auto;
+		/*
+		padding: 0px 0px 0px 40px;
+		*/
+		z-index:1;
+		width:800px;
+		height:38px;
+	}
+	ul.koNavUtility li{
+		font-size:11px;
+	    list-style:none;
+	    padding:0px 0px;
+	    float:left;
+	}
+	.koNavUtility li.btn01{width:200px;}
+	.koNavUtility li.btn02{width:200px;}
+	.koNavUtility li.btn03{width:200px;}
+	.koNavUtility li.btn04{width:200px;}
+
+	.koNavUtility li a{padding-top:35px;}
+	.koNavUtility li.btn01 a{background-position:   0px 0;}
+	.koNavUtility li.btn02 a{background-position:-200px 0;}
+	.koNavUtility li.btn03 a{background-position:-400px 0;}
+	.koNavUtility li.btn04 a{background-position:-600px 0;}
+
+	.koNavUtility li a:hover{padding-top:35px;}
+	.koNavUtility li.btn01 a:hover{background-position:   0px -35px;}
+	.koNavUtility li.btn02 a:hover{background-position:-200px -35px;}
+	.koNavUtility li.btn03 a:hover{background-position:-400px -35px;}
+	.koNavUtility li.btn04 a:hover{background-position:-600px -35px;}
+
+	/*nowhere*/
+	.admission #koNavUtility .admission a{background-position:-200px -41px;}
+
+
+	/*---------------------------------------------------------
+	  navSearch (googole)
+	  ---------------------------------------------------------*/
+	.koNavSearch {
+		z-index:1;
+		float:right;
+		width:247px;
+	}
+	.koNavSearch div {
+		vertical-align:bottom;
+	}
+	.koNavSearch input.searchForm {
+		width:163px;
+		height:21px;
+		margin:0;
+		padding:2px 2px 2px 29px !important;
+		line-height:1.6;
+		background:#fff url(../images/for_base.gif) no-repeat 0 -150px !important;
+		border:none !important;
+	}
+
+	#koNavSearch input.searchForm:hover,
+	#koNavSearch input.searchForm:active,
+	#koNavSearch input.searchForm:focus{
+		background:#fff url(../images/MenuKo.png) no-repeat 0 -175px !important;
+	}
+
+
+
+
+/*---------------------------------------------------------
+  footer
+  ---------------------------------------------------------*/
+.footer{
+	margin-left:auto;
+    margin-right:auto;
+    width:800px;
+	font-size:83%;
+}
+.footer table{
+	 width:850px;
+}
+
+.footer a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+.footer a:link {
+   color:#fff;
+}
+.footer a:hover {
+   color:#aaa;
+}
+
+.tailAddress {
+	/*
+	color:#337766;
+	*/
+	color:#337766;
+   line-height:147%;	/*陦碁俣隱ｿ謨ｴ(謚倩ｿ斐＠)*/
+    margin:0px 0px 0px 0px;	/*繝槭�繧ｸ繝ｳ�亥､門�縺ｮ菴咏區�峨�top right bottom left */
+	padding:4px 4px 4px 4px;
+	font-size:11px;
+	text-align:center;
+}
+.tailLine {
+	/*
+	border-bottom:1px solid #81c99b;
+	*/
+	border-top:1px solid #81c99b;
+	width:810px;
+    float:left;
+}
+
+panDustLink:ul{
+	color:#ffffff;
+    padding-left:0;
+    margin-left:0;
+}
+ul.panDustLink li{
+    list-style:none;
+    padding:3px 8px;
+    width:14%;
+    float:left;
+
+    background:#008800 url(../images/titleBack.gif) no-repeat 0 -175px !important;
+    border-width:1;
+    border-color:#00FF00;
+}
+
+
+
+
+

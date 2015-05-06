@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/*=========================================================
+	[ bulletin.css ]
+	creation:2013-02-22
+	update  :2013-03-22
+=========================================================*/
+
+/*=========================================================
+	index
+		1. menu class
+		2. fig01 class
+=========================================================*/
+/*-------------------------------------------------------
+ 1. menu
+---------------------------------------------------------*/
+.menu div{
+	overflow:hidden;
+}
+.menu ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+}
+.menu li{
+	display:block;
+	overflow:hidden;
+}
+
+.menu a{
+	display:block;
+	background-image:url(../images/MeBuBulletin.png);
+	background-repeat:no-repeat;
+	height:0;
+	overflow:hidden;
+	text-indent:-9999em;
+}
+
+.menu ul.left{
+		z-index:1;
+		width:200px;
+		/*
+		height:400px;
+		*/
+	}
+	ul.left li{
+		font-size:11px;
+	    list-style:none;
+	    padding:0px 0px;
+	    float:left;
+	}
+	.left li.btn01{width:200px;}
+	.left li.btn02{width:200px;}
+	.left li.btn03{width:200px;}
+	.left li.btn04{width:200px;}
+	.left li.btn05{width:200px;}
+	.left li.btn06{width:200px;}
+	.left li.btn07{width:200px;}
+
+	.left li a{padding-top:60px;}
+	.left li.btn01 a{background-position:   -2px -6px;}
+	.left li.btn02 a{background-position:   -2px -66px;}
+	.left li.btn03 a{background-position:   -2px -126px;}
+	.left li.btn04 a{background-position:   -2px -186px;}
+	.left li.btn05 a{background-position:   -2px -246px;}
+	.left li.btn06 a{background-position:   -2px -306px;}
+	.left li.btn07 a{background-position:   -2px -366px;}
+
+	.left li a:hover{padding-top:60px;}
+	.left li.btn01 a:hover{background-position: -204px -6px;}
+	.left li.btn02 a:hover{background-position: -204px -66px;}
+	.left li.btn03 a:hover{background-position: -204px -126px;}
+	.left li.btn04 a:hover{background-position: -204px -186px;}
+	.left li.btn05 a:hover{background-position: -204px -246px;}
+	.left li.btn06 a:hover{background-position: -204px -306px;}
+	.left li.btn07 a:hover{background-position: -204px -366px;}
+
+
+.bbsNavi div{
+	overflow:hidden;
+}
+.bbsNavi ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+}
+.bbsNavi li{
+	display:block;
+	overflow:hidden;
+}
+
+.bbsNavi a{
+	display:block;
+	background-image:url(../images/MenuHead-BBS2.png);
+	background-repeat:no-repeat;
+	height:0;
+	overflow:hidden;
+	text-indent:-9999em;
+}
+
+.bbsNavi ul {
+		z-index:1;
+	    width:800px;
+}
+	ul li{
+		font-size:11px;
+	    list-style:none;
+	    padding:0px 0px;
+	    float:left;
+	    width:100px;
+	}
+
+	li a{padding-top:40px;}
+	li.btn01 a{background-position:   0px 0;}
+	li.btn02 a{background-position:-100px 0;}
+	li.btn03 a{background-position:-200px 0;}
+	li.btn04 a{background-position:-300px 0;}
+	li.btn05 a{background-position:-400px 0;}
+	li.btn06 a{background-position:-500px 0;}
+	li.btn07 a{background-position:-600px 0;}
+	li.btn08 a{background-position:-700px 0;}
+
+	li a:hover{padding-top:40px;}
+	li.btn01 a:hover{background-position:   0px -39px;}
+	li.btn02 a:hover{background-position:-100px -39px;}
+	li.btn03 a:hover{background-position:-200px -39px;}
+	li.btn04 a:hover{background-position:-300px -39px;}
+	li.btn05 a:hover{background-position:-400px -39px;}
+	li.btn06 a:hover{background-position:-500px -39px;}
+	li.btn07 a:hover{background-position:-600px -39px;}
+	li.btn08 a:hover{background-position:-700px -39px;}
+
+
+
+
+.bbs {
+	padding:0px 5px 0px 5px;
+	font-size:14px;
+}
+	.bbs table {
+		width:800px;
+	}
+	.bbs table.navi {
+
+	}
+	.bbs table.list {
+		border: 1px solid #8fbc8f;
+	}
+	.list th {
+		border: 1px solid #8fbc8f;
+		padding:2px 2px 2px 5px;
+		background-color: #98fb98;
+	}
+	.list td {
+		border:1px solid #8fbc8f;
+		padding:2px 1px 1px 5px;
+		background-color: #FFFFFF;
+	}
+
+
+	.case05 img {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.case05 .txt {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.bbs a.offer {
+		z-index:1;
+		float: left;
+
+		height:0;
+		text-indent:-9999em;
+
+		border: 0px;
+		height: 30px;
+		width: 72px;
+
+		background: url(../images/MenuHead-BBS2.png) no-repeat 0px -100px !important;
+		background-repeat:no-repeat;
+	}
+
+	.bbs a.offer:hover {
+		background: url(../images/MenuHead-BBS2.png) no-repeat -0px -140px !important;
+		background-repeat:no-repeat;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------
+ 2. fig01
+---------------------------------------------------------*/
+/*
+.fig01 div {
+}
+.fig01 table{
+	width:95%;
+    margin:10px 0px 0px 20px;	/*マージン（外側の余白）　top right bottom left */
+}
+.fig01 th{
+	font-size:12px;
+	font-weight:bold;
+	background-color: #ccffcc;
+	float:center;
+}
+.fig01 td{
+	font-size:12px;
+	float:center;
+}
+*/

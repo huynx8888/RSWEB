@@ -1,0 +1,193 @@
+﻿@charset "utf-8";
+
+/*=========================================================
+	[ top.css ]
+	creation:2011-12-10
+	update  :2015-02-21
+=========================================================*/
+
+/*=========================================================
+	index
+		1. menu class (rightMenu inc.)
+		2. oshirase class
+		3. azemichi class
+=========================================================*/
+/*-------------------------------------------------------
+ 1. menu
+---------------------------------------------------------*/
+.menu div{
+	overflow:hidden;
+}
+.menu ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+}
+.menu li{
+	display:block;
+	overflow:hidden;
+}
+.menu a{
+	display:block;
+	background-image:url(../images/MeBuTop.png);
+	background-repeat:no-repeat;
+	height:0;
+	overflow:hidden;
+	text-indent:-9999em;
+}
+	.menu ul.left{
+	}
+	ul.left li{
+		list-style:none;
+		padding:0px 0px;
+		float:left;
+	}
+
+	.left li.btn01{width:201px;}
+	.left li.btn02{width:201px;}
+	.left li.btn03{width:201px;}
+	.left li.btn04{width:201px;}
+
+	.left li a{padding-top:110px; padding-bottom:1px;}
+	.left li.btn01 a{background-position:   -5px -5px;}
+	.left li.btn02 a{background-position:   -5px -120px;}
+	.left li.btn03 a{background-position:   -5px -235px;}
+	.left li.btn04 a{background-position:   -5px -350px;}
+
+	.left li a:hover{padding-top:110px; padding-bottom:1px;}
+	.left li.btn01 a:hover{background-position: -210px -5px;}
+	.left li.btn02 a:hover{background-position: -210px -120px;}
+	.left li.btn03 a:hover{background-position: -210px -235px;}
+	.left li.btn04 a:hover{background-position: -210px -350px;}
+
+
+
+.menuR a{
+		display:block;
+		background-image:url(../images/MeBuTopR.png);
+		background-repeat:no-repeat;
+		height:0;
+		overflow:hidden;
+		text-indent:-9999em;
+	}
+
+.menuR ul.right{
+		z-index:1;
+		width:180px;
+	}
+	ul.right li{
+		font-size:11px;
+		list-style:none;
+		padding:0px 0px;
+		float:left;
+	}
+	.right li.btn01{width:180px;}
+	.right li.btn02{width:180px;}
+	.right li.btn03{width:180px;}
+	.right li.btn04{width:180px;}
+	.right li.btn05{width:180px;}
+	.right li.btn06{width:180px;}
+	.right li.btn07{width:180px;}
+
+	.right li a{padding-top:50px;}
+	.right li.btn01 a{background-position:   -5px -4px;}
+	.right li.btn02 a{background-position:   -5px -54px;}
+	.right li.btn03 a{background-position:   -5px -104px;}
+	.right li.btn04 a{background-position:   -5px -154px;}
+	.right li.btn05 a{background-position:   -5px -204px;}
+	.right li.btn06 a{background-position:   -5px -254px;}
+	.right li.btn07 a{background-position:   -5px -304px;}
+
+	.right li a:hover{padding-top:50px;}
+	.right li.btn01 a:hover{background-position: -200px -4px;}
+	.right li.btn02 a:hover{background-position: -200px -54px;}
+	.right li.btn03 a:hover{background-position: -200px -104px;}
+	.right li.btn04 a:hover{background-position: -200px -154px;}
+	.right li.btn05 a:hover{background-position: -200px -204px;}
+	.right li.btn06 a:hover{background-position: -200px -254px;}
+	.right li.btn07 a:hover{background-position: -200px -304px;}
+
+
+/*-------------------------------------------------------
+ 2. oshirase
+---------------------------------------------------------*/
+.oshirase div {
+}
+.oshirase table{
+	width:400px;
+	height:90px;
+}
+.oshirase td{
+	vertical-align: top;
+}
+.oshirase ol{
+    margin:5px 0px 0px 0px;	/*マージン（外側の余白）　top right bottom left */
+}
+.oshirase li{
+	font-size:13px;
+    list-style:none;	/*リスト見出しマーク　none:なし*/
+    line-height:120%;	/*行間調整(折返し)*/
+    margin:0px 20px 0px 20px;	/*マージン（外側の余白）　top right bottom left */
+}
+
+li.titleOS {
+	/*
+	background-image:url(../images/titleLineS.png);
+	*/
+	margin:0px 0px 0px 3px;
+	padding:2px 2px 2px 15px;
+	background-image:url(../images/titleLineOshirase.png);
+	background-repeat:no-repeat;
+	font-size:14px;
+}
+li.titleFL {
+	/*
+	background-image:url(../images/titleLineS.png);
+	*/
+	margin:0px 0px 0px 3px;
+	padding:2px 2px 2px 15px;
+	background-image:url(../images/titleLineFarmLand.png);
+	background-repeat:no-repeat;
+	font-size:14px;
+}
+li.bkNum {
+	margin:0px 0px 0px 3px;
+	padding:4px 4px 4px 4px;
+	font-size:11px;
+	text-align:right;
+}
+
+
+/*-------------------------------------------------------
+ 3. azemichi
+  平成26年8月26日に「height:220px」を「height:250px」へ
+　「width:400px」を「width:420px」へそれぞれ変更
+---------------------------------------------------------*/
+.azemichi div {
+}
+.azemichi table{
+	background-image:url(../images/azemichiBack.gif);
+	background-repeat:no-repeat;
+	width:420px;
+	height:250px;
+}
+.azemichi td{
+	vertical-align: top;
+}
+.azemichi ol{
+    margin:59px 0px 0px 0px;	/*マージン（外側の余白）　top right bottom left */
+}
+.azemichi li{
+	font-size:15px;
+    list-style:none;	/*リスト見出しマーク　none:なし*/
+    line-height:147%;	/*行間調整(折返し)*/
+    margin:0px 20px 0px 70px;	/*マージン（外側の余白）　top right bottom left */
+}
+.azemichi li.bkNum {
+    line-height:147%;	/*行間調整(折返し)*/
+    margin:0px 20px 0px 70px;	/*マージン（外側の余白）　top right bottom left */
+	padding:4px 4px 4px 4px;
+	font-size:11px;
+	text-align:right;
+}

@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*=========================================================
+	[ rationalization.css ]
+	creation:2011-12-10
+	update  :2013-01-17
+=========================================================*/
+
+/*=========================================================
+	index
+		1. menu class
+=========================================================*/
+/*-------------------------------------------------------
+ 1. menu
+---------------------------------------------------------*/
+.menu div{
+	overflow:hidden;
+}
+.menu ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+}
+.menu li{
+	display:block;
+	overflow:hidden;
+}
+
+.menu a{
+	display:block;
+	background-image:url(../images/MeBuRat.png);
+	background-repeat:no-repeat;
+	height:0;
+	overflow:hidden;
+	text-indent:-9999em;
+}
+
+.menu ul.left{
+		z-index:1;
+		width:200px;
+		/*
+		height:400px;
+		*/
+	}
+	ul.left li{
+		font-size:11px;
+	    list-style:none;
+	    padding:0px 0px;
+	    float:left;
+	}
+	.left li.btn01{width:199px;}
+	.left li.btn02{width:199px;}
+	.left li.btn03{width:199px;}
+	.left li.btn04{width:199px;}
+
+	.left li a{padding-top:61px;padding-bottom:1px;}
+	.left li.btn01 a{background-position:   -5px -5px;}
+	.left li.btn02 a{background-position:   -5px -70px;}
+	.left li.btn03 a{background-position:   -5px -135px;}
+	.left li.btn04 a{background-position:   -5px -200px;}
+
+	.left li a:hover{padding-top:61px;padding-bottom:1px;}
+	.left li.btn01 a:hover{background-position: -210px -5px;}
+	.left li.btn02 a:hover{background-position: -210px -70px;}
+	.left li.btn03 a:hover{background-position: -210px -135px;}
+	.left li.btn04 a:hover{background-position: -210px -200px;}

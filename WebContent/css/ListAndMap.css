@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*=========================================================
+	[ farmLand.css ]
+	creation:2015-02-09
+	update  :2015-02-14
+=========================================================*/
+
+/*=========================================================
+	index
+		1. fig01 class
+=========================================================*/
+/*-------------------------------------------------------
+ 1. fig01
+---------------------------------------------------------*/
+
+.serch {
+	font-size:14px;
+}
+	.serch table.frame {
+		width:800px;
+		padding:0px 0px;
+		border: 0px solid #33aa33;
+		margin: 0 auto;
+	}
+		table.frame td.fr_timestamp {
+			text-align:right;
+		}
+		table.frame td.fr_result {
+			text-align:right;
+		}
+
+	.serch table.result {
+		width:770px;
+		margin: 0px;
+
+		border: 2px solid #33aa33;
+	}
+		table.result th {
+			height:20px;
+			background-color: #33aa33;
+			text-align:center;
+		}
+		table.result td {
+			height:30px;
+			padding:7px 7px 7px 7px;
+			border: 1px solid #8fbc8f;
+			background-color: #ffffff;
+			text-align:left;
+			vertical-align:top;
+
+		}
+		table.result td.noHits {
+			background-color: #FFFFFF;
+			font-weight:bold;
+			text-align:center;
+			vertical-align:middle;
+}
+
+/* 		table.result td.title { */
+/* 			background-color: #88ff88; */
+/* 		} */
+/* 		table.result td.value01 { */
+/* 			background-color: #FFFFFF; */
+/* 		} */
+
+
